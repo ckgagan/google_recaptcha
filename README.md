@@ -51,3 +51,9 @@ Paste this snippet before the closing </head> tag on your HTML template:
 ```javascript
 <script src='https://www.google.com/recaptcha/api.js'></script>
 ```
+
+#include this snippet in the signup form
+
+```
+<%= recaptcha_html %>
+```
