@@ -3,6 +3,11 @@ Use google recaptcha to distinguish signup made between robots and human
 
 Basic setup for using this gem with devise is given below
 
+In your Gemfile
+```
+gem 'google_recaptcha'
+```
+
 Create a file in config/initialize/captcha.rb
 
 ```
